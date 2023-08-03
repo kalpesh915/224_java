@@ -1,0 +1,11 @@
+public class pro29 {
+    public static void main(String[] args) {
+        /*
+            logical not
+            invers the result
+        */ 
+        System.out.println("Answer is "+ (11 > 7 || 11 > 15));
+        System.out.println("Answer is "+ !(11 > 7 || 11 > 15));
+        
+    }
+}
