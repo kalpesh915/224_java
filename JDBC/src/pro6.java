@@ -6,7 +6,7 @@ public class pro6 {
     public static void main(String[] args) {
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            String url = "jdbc:mysql://localhost:3306/426laravel";
+            String url = "jdbc:mysql://localhost:3306/628laravel";
             Connection connection = DriverManager.getConnection(url, "root", "");
             DatabaseMetaData meta = connection.getMetaData();
 
